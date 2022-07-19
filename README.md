@@ -16,3 +16,10 @@ Consulta registros sísmicos históricos de agencias oficiales internacionales.
 | Búsqueda por región          | Obtén los eventos cercanos a una ciudad o dentro de una zona específica. | 
 | Búsqueda por parámetros      | Obtén los eventos con una magnitud y/o profundidad específica.           |
 | Búsqueda por fuente          | Obtén los eventos de una fuente de datos específica.                     |
+
+## Recursos REST: historical.sasslaapis
+### Endpoint
+
+```
+https://historical.sasslaapis.com/records
+```

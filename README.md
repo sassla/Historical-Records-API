@@ -9,7 +9,10 @@ Consulta registros sísmicos históricos de agencias oficiales internacionales.
 
 ## Funciones clave
 
-| Función                      | Descripción                                                       |
-|------------------------------|-------------------------------------------------------------------|
-| Consulta los últimos sismos  | Obtén los eventos de los últimos días ordenados cronológicamente. |
-| Búsqueda por fecha           | Obtén los eventos ocurridos en una ventana de tiempo específica.  |
+| Función                      | Descripción                                                              |
+|------------------------------|--------------------------------------------------------------------------|
+| Últimos sismos               | Obtén los eventos de los últimos 7 días ordenados cronológicamente.      |
+| Búsqueda por fecha           | Obtén los eventos ocurridos en una ventana de tiempo específica.         |
+| Búsqueda por región          | Obtén los eventos cercanos a una ciudad o dentro de una zona específica. | 
+| Búsqueda por parámetros      | Obtén los eventos con una magnitud y/o profundidad específica.           |
+| Búsqueda por fuente          | Obtén los eventos de una fuente de datos específica.                     |

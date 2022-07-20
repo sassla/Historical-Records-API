@@ -24,6 +24,7 @@ Consulta registros sísmicos históricos de agencias oficiales internacionales.
 https://historical.sasslaapis.com/records
 ```
 
+> Este extremo aún no está habilitado. Esta documentación es una prueba de concepto.
 
 ### Recurso: historical.sasslaapis.records.request 
 Representación de solicitud.

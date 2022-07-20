@@ -25,7 +25,7 @@ https://historical.sasslaapis.com/records
 ```
 
 ### Recurso: historical.sasslaapis.records.response 
-Representación de respuesta: Lista de eventos filtrados.
+Representación de respuesta: Lista de eventos filtrados en formato JSON.
 
 ```json
 [{
@@ -57,3 +57,15 @@ Representación de respuesta: Lista de eventos filtrados.
         }
 }]
 ```
+#### Sintaxis de la respuesta
+
+| Parámtero | Uso | Descripción |
+|-----------|---------------------|-------------|
+| **date**  | Obligatorio, string | Este parámetro especifica la fecha del evento sísmico en el siguiente formato: ```yyyy-MM-dd'T'HH:mm:ss```. La zona horaria varía por la región del evento. |
+| **timestamp** | Obligatorio, número | Este parámetro especifica la fecha del evento sísmico en formato UNIX. |
+| **source** | Obligatorio, matriz JSON | Consultar historical.sasslaapis.records.response.source |
+| **parameters** | Obligatorio, matriz JSON | Consultar historical.sasslaapis.records.response.parameters |
+| **intensity-reports** | Obligatorio, matriz JSON | Consultar historical.sasslaapis.records.response.intensity-reports |
+
+### Recurso: historical.sasslaapis.records.response.source
+

@@ -74,7 +74,7 @@ GET
 | Parámtero | Uso | Descripción |
 |-----------|-----|-------------|
 | **limit** | Opcional, número | Este parámetro establece el número máximo de resultados en la respuesta. Máximo: ```500```. Mínimo: ```1```. Por defecto: ```100```. |
-| **filters** | Obligatorio, matriz JSON | Consultar [historical.sasslaapis.records.request.filters](https://github.com/sassla/Historical-Records-API/blob/main/README.md)
+| **filters** | Obligatorio, matriz JSON | Consultar [historical.sasslaapis.records.request.filters](https://github.com/sassla/Historical-Records-API/blob/main/README.md#historicalsasslaapisrecordsrequestfilters)
 
 
 ### historical.sasslaapis.records.request.filters
@@ -85,6 +85,24 @@ GET
 | **sources** | Opcional, arreglo de string | Este parámetro establece las fuentes de datos de la búsqueda (ID de la fuente de datos). Establecer ```null``` para utilizar todas las fuentes disponibles. |
 | **region** | Opcional, matriz JSON | Este parámetro establece la región / localidad específica de la búsqueda. Establecer ```null``` para retornar eventos de todas las regiones en las fechas elegidas. Consultar [historical.sasslaapis.records.request.region](https://github.com/sassla/Historical-Records-API/blob/main/README.md) |
 | **parameters** | Opcional, matriz JSON | Este parámetro establece los parámetros específicos de la búsqueda. Establecer ```null``` para retornar eventos de cualquier magnitud o profundidad ocurrido en las fechas elegidas. Consultar [historical.sasslaapis.records.request.parameters](https://github.com/sassla/Historical-Records-API/blob/main/README.md) |
+
+
+### historical.sasslaapis.records.request.region
+
+| Parámtero | Uso | Descripción |
+|-----------|-----|-------------|
+| **latitude** | Obligatorio, Double | Este parámetro establece la latitud de la región de búsqueda. |
+| **longitude** | Obligatorio, Double | Este parámetro establece la longitud de la región de búsqueda. |
+| **radius** | Obligatorio, número | Este parámetro establece el radio en kilómetros. |
+
+
+### historical.sasslaapis.records.request.parameters
+
+| Parámtero | Uso | Descripción |
+|-----------|-----|-------------|
+| **min-magnitude** | Opcional, Double | Este parámetro establece la magnitud mínima de la búsqueda. |
+| **min-depth** | Opcional, Double | Este parámetro establece la profundidad mínima de la búsqueda en kilómetros. Considerar que existen profundidades negativas. Ej.: ```-0.050``` km. |
+
 
 
 ### Recurso: historical.sasslaapis.records.response 

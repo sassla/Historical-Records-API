@@ -62,6 +62,9 @@ Representación de solicitud.
 }
 ```
 
+#### Sintaxis de la respuesta
+
+TODO
 
 ### Recurso: historical.sasslaapis.records.response 
 Representación de respuesta: Lista de eventos filtrados en formato JSON.

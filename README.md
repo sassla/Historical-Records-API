@@ -93,4 +93,4 @@ Representación de respuesta: Lista de eventos filtrados en formato JSON.
 |-----------|-----|-------------|
 | **latitude** | Obligatorio, Double | Este parámetro especifica la latitud del evento. |
 | **longitude** | Obligatorio, Double | Este parámetro especifica la longitud del evento. |
-| **name** | Obligatorio, string | Este parámetro especifica la región / localidad donde se originó el evento sísmico |
+| **name** | Obligatorio, string | Este parámetro especifica la región / localidad donde se originó el evento sísmico. |

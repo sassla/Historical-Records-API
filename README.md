@@ -44,7 +44,7 @@ Representación de solicitud.
        "limit": 100,
        
         "filters": {
-            "date_range": "1626763680...1658281682",
+            "date-range": "1626763680...1658281682",
 
             "region": {
                 "latitude": 19.42847,
@@ -68,6 +68,16 @@ Representación de solicitud.
 |-----------|-----|-------------|
 | **limit** | Opcional, número | Este parámetro establece el número máximo de resultados en la respuesta. Máximo: ```500```. Mínimo: ```1```. Por defecto: ```100```. |
 | **filters** | Obligatorio, matriz JSON | Consultar [historical.sasslaapis.records.request.filters](https://github.com/sassla/Historical-Records-API/blob/main/README.md)
+
+
+### historical.sasslaapis.records.request.filters
+
+| Parámtero | Uso | Descripción |
+|-----------|-----|-------------|
+| **date-range** | Obligatorio, string | Este parámetro establece el rango de fechas de la búsqueda en el siguiente formato: ```"since_unix_date...until_unix_date"```. Existen registros desde el año 1727. |
+| **sources** | Opcional, arreglo de string | Este parámetro establece las fuentes de datos de la búsqueda. Establecer ```null``` para utilizar todas las fuentes disponibles. |
+| **region** | Opcional, matriz JSON | Este parámetro establece la región / localidad específica de la búsqueda. Establecer ```null``` para retornar eventos de todas las regiones en las fechas elegidas. Consultar [historical.sasslaapis.records.request.region](https://github.com/sassla/Historical-Records-API/blob/main/README.md) |
+| **parameters** | Opcional, matriz JSON | Este parámetro establece los parámetros específicos de la búsqueda. Establecer ```null``` para retornar eventos de cualquier magnitud o profundidad ocurrido en las fechas elegidas. Consultar [historical.sasslaapis.records.request.parameters](https://github.com/sassla/Historical-Records-API/blob/main/README.md) |
 
 
 ### Recurso: historical.sasslaapis.records.response 

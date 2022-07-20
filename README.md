@@ -62,9 +62,13 @@ Representación de solicitud.
 }
 ```
 
-#### Sintaxis de la respuesta
+#### Sintaxis de la solicitud
 
-TODO
+| Parámtero | Uso | Descripción |
+|-----------|-----|-------------|
+| **limit** | Opcional, número | Este parámetro establece el número máximo de resultados en la respuesta. Máximo: ```500```. Mínimo: ```1```. Por defecto: ```100```. |
+| **filters** | Obligatorio, matriz JSON | Consultar [historical.sasslaapis.records.request.filters](https://github.com/sassla/Historical-Records-API/blob/main/README.md)
+
 
 ### Recurso: historical.sasslaapis.records.response 
 Representación de respuesta: Lista de eventos filtrados en formato JSON.

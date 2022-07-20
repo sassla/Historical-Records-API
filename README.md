@@ -65,7 +65,7 @@ Representación de respuesta: Lista de eventos filtrados en formato JSON.
 | **timestamp** | Obligatorio, número | Este parámetro especifica la fecha del evento sísmico en formato UNIX. |
 | **source** | Obligatorio, matriz JSON | Consultar [historical.sasslaapis.records.response.source](https://github.com/sassla/Historical-Records-API/blob/main/README.md#recurso-historicalsasslaapisrecordsresponsesource) |
 | **parameters** | Obligatorio, matriz JSON | Consultar [historical.sasslaapis.records.response.parameters](https://github.com/sassla/Historical-Records-API/blob/main/README.md#recurso-historicalsasslaapisrecordsresponseparameters) |
-| **intensity-reports** | Obligatorio, matriz JSON | Consultar historical.sasslaapis.records.response.intensity-reports |
+| **intensity-reports** | Obligatorio, matriz JSON | Consultar [historical.sasslaapis.records.response.intensity-reports](https://github.com/sassla/Historical-Records-API/blob/main/README.md#recurso-historicalsasslaapisrecordsresponseparametersintensity-reports) |
 
 
 ### historical.sasslaapis.records.response.source

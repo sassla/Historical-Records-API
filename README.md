@@ -24,6 +24,29 @@ Consulta registros sísmicos históricos de agencias oficiales internacionales.
 https://historical.sasslaapis.com/records
 ```
 
+
+### Recurso: historical.sasslaapis.records.request 
+Representación de solicitud.
+
+#### Headers
+
+```json
+{
+   "Content-Type": "application/json",
+   "Authorization": "key=API_KEY"
+}
+```
+
+#### Body
+
+```json
+{
+   "Content-Type": "application/json",
+   "Authorization": "key=API_KEY"
+}
+```
+
+
 ### Recurso: historical.sasslaapis.records.response 
 Representación de respuesta: Lista de eventos filtrados en formato JSON.
 
@@ -102,9 +125,3 @@ Representación de respuesta: Lista de eventos filtrados en formato JSON.
 |-----------|-----|-------------|
 | **count** | Obligatorio, número | Este parámetro especifica el número de reportes de percepción generados por los usuarios desde SASSLA App |
 | **event_id** | Obligatorio, número | Este parámetro especifica el identificador del evento sísmico para consultar los reportes de percepción asociados. Consultar Intensity-Reports-API. |
-
-
-
-### Recurso: historical.sasslaapis.records.request 
-Representación de solicitud.
-

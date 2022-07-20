@@ -31,7 +31,7 @@ Representación de solicitud.
 #### Method
 
 ```
-POST
+GET
 ```
 
 #### Headers

@@ -41,6 +41,8 @@ Representación de solicitud.
 
 ```json
 {
+       "limit": 100,
+       
         "filters": {
             "date_range": "1626763680...1658281682",
 

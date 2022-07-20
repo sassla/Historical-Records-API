@@ -28,6 +28,12 @@ https://historical.sasslaapis.com/records
 ### Recurso: historical.sasslaapis.records.request 
 Representación de solicitud.
 
+#### Method
+
+```
+POST
+```
+
 #### Headers
 
 ```json

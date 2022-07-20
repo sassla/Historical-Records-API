@@ -68,7 +68,7 @@ Representación de respuesta: Lista de eventos filtrados en formato JSON.
 | **intensity-reports** | Obligatorio, matriz JSON | Consultar historical.sasslaapis.records.response.intensity-reports |
 
 
-### Recurso: historical.sasslaapis.records.response.source
+### historical.sasslaapis.records.response.source
 
 | Parámtero | Uso | Descripción |
 |-----------|-----|-------------|
@@ -76,7 +76,7 @@ Representación de respuesta: Lista de eventos filtrados en formato JSON.
 | **display_name** | Obligatorio, string | Este parámetro especifica el nombre completo de la fuente de datos. Ej.: ```Servicio Sismológico Nacional``` |
 
 
-### Recurso: historical.sasslaapis.records.response.parameters
+### historical.sasslaapis.records.response.parameters
 
 
 | Parámtero | Uso | Descripción |
@@ -87,10 +87,18 @@ Representación de respuesta: Lista de eventos filtrados en formato JSON.
 | **location** | Obligatorio, matriz JSON | [Consultar historical.sasslaapis.records.response.location](https://github.com/sassla/Historical-Records-API/blob/main/README.md#recurso-historicalsasslaapisrecordsresponseparameterslocation) |
 
 
-### Recurso: historical.sasslaapis.records.response.parameters.location
+### historical.sasslaapis.records.response.parameters.location
 
 | Parámtero | Uso | Descripción |
 |-----------|-----|-------------|
 | **latitude** | Obligatorio, Double | Este parámetro especifica la latitud del evento. |
 | **longitude** | Obligatorio, Double | Este parámetro especifica la longitud del evento. |
 | **name** | Obligatorio, string | Este parámetro especifica la región / localidad donde se originó el evento sísmico. |
+
+
+### Recurso: historical.sasslaapis.records.response.parameters.intensity-reports
+
+| Parámtero | Uso | Descripción |
+|-----------|-----|-------------|
+| **count** | Obligatorio, número | Este parámetro especifica el número de reportes de percepción generados por los usuarios desde SASSLA App |
+| **event_id** | Obligatorio, número | Este parámetro especifica el identificador del evento sísmico para consultar los reportes de percepción asociados. Consultar Intensity-Reports-API. |

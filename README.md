@@ -144,3 +144,7 @@ Representación de respuesta: Lista de eventos filtrados en formato JSON.
 |-----------|-----|-------------|
 | **count** | Obligatorio, número | Este parámetro especifica el número de reportes de percepción generados por los usuarios desde SASSLA App |
 | **event_id** | Obligatorio, número | Este parámetro especifica el identificador del evento sísmico para consultar los reportes de percepción asociados. Consultar Intensity-Reports-API. |
+
+
+## Licencia
+SASSLA-Historical-Records-API is licensed under the Apache License, version 2.0.

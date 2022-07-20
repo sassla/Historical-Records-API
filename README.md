@@ -84,7 +84,7 @@ Representación de respuesta: Lista de eventos filtrados en formato JSON.
 | **magnitude** | Obligatorio, Double | Este parámetro especifica la magnitud del evento sísmico. |
 | **magnitude_type** | Opcional, string | Este parámetro especifica el tipo de magnitud calculada. Ej.: ```MW, ML, MWR, MWB```. Utilice ```MW``` por defecto. |
 | **depth** | Obligatorio, Double | Este parámetro especifica la profundidad del foco sísmico en kilómetros. |
-| **location** | Obligatorio, matriz JSON | Consultar historical.sasslaapis.records.response.location |
+| **location** | Obligatorio, matriz JSON | [Consultar historical.sasslaapis.records.response.location](https://github.com/sassla/Historical-Records-API/blob/main/README.md#recurso-historicalsasslaapisrecordsresponseparameterslocation) |
 
 
 ### Recurso: historical.sasslaapis.records.response.parameters.location

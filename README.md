@@ -73,7 +73,18 @@ Representación de respuesta: Lista de eventos filtrados en formato JSON.
 | Parámtero | Uso | Descripción |
 |-----------|-----|-------------|
 | **id** | Obligatorio, string | Este parámetro especifica el identificador de la fuente de datos. Ej.: ```SSN, USGS```. |
-| **display_name** | Obligatorio, string | Este parámetro especifica el nombre completo de la fuente de datos. Ej.: ```Servicio Sismilógico Nacional``` |
+| **display_name** | Obligatorio, string | Este parámetro especifica el nombre completo de la fuente de datos. Ej.: ```Servicio Sismológico Nacional``` |
 
 
 ### Recurso: historical.sasslaapis.records.response.parameters
+
+
+| Parámtero | Uso | Descripción |
+|-----------|-----|-------------|
+| **magnitude** | Obligatorio, Double | Este parámetro especifica la magnitud del evento sísmico. |
+| **magnitude_type** | Opcional, string | Este parámetro especifica el tipo de magnitud calculada. Ej.: ```MW, ML, MWR, MWB```. Utilice ```MW``` por defecto. |
+| **depth** | Obligatorio, Double | Este parámetro especifica la profundidad del foco sísmico en kilómetros. |
+| **location** | Obligatorio, matriz JSON | Consultar historical.sasslaapis.records.response.location |
+
+
+### Recurso: historical.sasslaapis.records.response.parameters.location

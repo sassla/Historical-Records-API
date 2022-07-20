@@ -104,4 +104,7 @@ Representación de respuesta: Lista de eventos filtrados en formato JSON.
 | **event_id** | Obligatorio, número | Este parámetro especifica el identificador del evento sísmico para consultar los reportes de percepción asociados. Consultar Intensity-Reports-API. |
 
 
+
 ### Recurso: historical.sasslaapis.records.request 
+Representación de solicitud.
+

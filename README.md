@@ -96,7 +96,7 @@ Representación de respuesta: Lista de eventos filtrados en formato JSON.
 | **name** | Obligatorio, string | Este parámetro especifica la región / localidad donde se originó el evento sísmico. |
 
 
-### Recurso: historical.sasslaapis.records.response.parameters.intensity-reports
+### historical.sasslaapis.records.response.parameters.intensity-reports
 
 | Parámtero | Uso | Descripción |
 |-----------|-----|-------------|

@@ -41,8 +41,22 @@ Representación de solicitud.
 
 ```json
 {
-   "Content-Type": "application/json",
-   "Authorization": "key=API_KEY"
+        "filters": {
+            "date_range": "1626763680...1658281682",
+
+            "region": {
+                "latitude": 19.42847,
+                "longitude": -99.12766,
+                "radius": 50
+            },
+
+            "parameters": {
+                "min-magnitude": 1.0,
+                "min-depth": null
+            },
+
+            "sources": ["SSN"]
+        }
 }
 ```
 
